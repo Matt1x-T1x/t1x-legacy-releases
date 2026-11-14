@@ -1,14 +1,14 @@
 {
   "name": "t1x-legacy",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "codename": "Desktop",
   "channel": "stable",
   "releaseDate": "2026-11-14",
   "minVaultSchema": "1.0",
   "releaseNotes": [
-    "v1.1.0 Desktop: Empacotamento nativo Windows (Electron + Next.js Standalone).",
-    "Isolamento seguro do cofre em Documentos/T1x-Legacy/vault via T1X_VAULT_PATH.",
-    "Auto-Updater integrado via IPC ao canal público Matt1x-T1x/t1x-legacy-releases."
+    "v1.1.2 Desktop: Correção definitiva do servidor Next.js standalone empacotado (node_modules preservado via afterPack).",
+    "Identidade visual oficial Matt1x Terminal Pop (IBM Plex Mono/Sans, assinatura matt1x / T1x Legacy_, cursor laranja).",
+    "Guia rápido de primeiro acesso e navegação direta do Hub para os 4 módulos."
   ],
   "repository": {
     "releasesUrl": "https://github.com/Matt1x-T1x/t1x-legacy-releases/releases",

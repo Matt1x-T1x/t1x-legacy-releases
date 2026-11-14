@@ -2,6 +2,14 @@
 
 Todas as mudanças notáveis deste projeto são documentadas neste arquivo seguindo [Semantic Versioning](https://semver.org/).
 
+## [1.1.2] - 2026-11-14 — `Desktop`
+
+### Corrigido & Aprimorado
+- **Servidor Standalone no Instalador Windows:** Adicionado hook `scripts/after-pack.mjs` garantindo inclusão de `.next/standalone/node_modules` em `resources/standalone/node_modules` (resolvendo travamento na Splash Screen).
+- **Tratamento de Erro na Inicialização:** `electron/main.ts` fecha a Splash Screen e exibe diálogo claro caso o servidor local falhe ao iniciar.
+- **Identidade Matt1x Terminal Pop:** Aplicados tokens `--m1x-*`, fontes `IBM Plex Mono` e `IBM Plex Sans`, assinatura `matt1x / T1x Legacy_` e barra sólida `#FF6A1A` na Splash Screen.
+- **UX de Primeiro Acesso:** Adicionado guia rápido no Hub Central e botões diretos `"Explorar <Módulo> →"` em cada camada da Árvore Viva.
+
 ## [1.1.1] - 2026-11-14 — `Desktop`
 
 ### Corrigido
