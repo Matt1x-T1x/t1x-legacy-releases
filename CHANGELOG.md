@@ -1,0 +1,35 @@
+# Changelog — T1x Legacy
+
+Todas as mudanças notáveis deste projeto são documentadas neste arquivo seguindo [Semantic Versioning](https://semver.org/).
+
+## [1.0.0] - 2026-11-14 — `Legacy`
+
+### Adicionado
+- **T1x Horizon (`v1.0.0`):** Diário de princípios e **Cápsula do Tempo** com selo temporal (`unlockDate`/`unlockYear`), dedicatória e contagem regressiva em estilo telemetria.
+- **Paleta de Comando Global (`Ctrl+K`):** Busca instantânea entre pessoas, eras, conceitos, cápsulas e tags em todas as 4 camadas.
+- **Ponte IA Local (`src/lib/ollama.ts`):** Integração opcional com Ollama local (fallback silencioso offline) para sugestões de entrevista no *Roots* e conexões *Horizon ↔ Codex*.
+- **API Local (`/api/vault` e `/api/ai/suggest`):** Criação visual de registros em Markdown + YAML diretamente no `/vault` via `LocalFsVaultProvider`.
+- **Canal Público de Releases:** Atualização do `updater.ts` para consultar o repositório público `t1x-legacy-releases`.
+
+## [0.4.0] - 2026-11-14 — `Codex`
+
+### Adicionado
+- **Visão de Lentes Duplas:** Exibição lado a lado da *Lente Ancestral*, *Lente Científica* e *Protocolo Prático*.
+- **Links Bidirecionais (`[[conceito]]`):** Suporte no `vault-parser.ts` + grafo visual de conexões conceituais e 6 verbetes completos.
+
+## [0.3.0] - 2026-11-14 — `Chronos`
+
+### Adicionado
+- **Linha do Tempo por Eras:** Filtro cronológico da Pré-História à Era Digital com 6 marcos históricos e cards de engenharia.
+- **2 Simuladores Interativos (SVG):** Astrolábio Planisférico (latitude, declinação, ângulo horário) e Engenhosidade Mecânica (Alavanca & Clepsidra).
+
+## [0.2.0] - 2026-11-14 — `Roots`
+
+### Adicionado
+- **Grafo Genealógico Interativo:** Visualização com zoom, pan, destaque de linhagens e árvore exemplar de 3 gerações (`exemplo-bisavo`, `exemplo-avo`, `exemplo-mae`).
+- **Dossiê Familiar & Cruzamento Histórico:** Receitas, player de áudio, galeria de fotos e marcos contemporâneos do `Chronos`.
+
+## [0.1.0] - 2026-11-14 — `Seed`
+
+### Adicionado
+- Estrutura inicial Local-First, `.gitignore` blindado, `VaultStorageProvider`, motor Markdown + YAML e Hub Central *Telemetria Ancestral*.

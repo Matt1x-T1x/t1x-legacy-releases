@@ -1,0 +1,18 @@
+{
+  "name": "t1x-legacy",
+  "version": "1.0.0",
+  "codename": "Legacy",
+  "channel": "stable",
+  "releaseDate": "2026-11-14",
+  "minVaultSchema": "1.0",
+  "releaseNotes": [
+    "v0.2.0 Roots: Grafo genealógico interativo (zoom/pan), dossiê familiar, áudio/fotos e cruzamento automático com Chronos.",
+    "v0.3.0 Chronos: Linha do tempo filtrável por eras + Simuladores de Astrolábio Planisférico e Engenhosidade Mecânica (Alavanca & Clepsidra).",
+    "v0.4.0 Codex: Visão de Lentes Duplas (Ancestral ↔ Ciência), links bidirecionais [[conceito]] e grafo conceitual.",
+    "v1.0.0 Horizon & Core: Cápsula do Tempo com selo futuro, Paleta Global Ctrl+K, ponte Ollama local e canal público de releases."
+  ],
+  "repository": {
+    "releasesUrl": "https://github.com/Matt1x-T1x/t1x-legacy-releases/releases",
+    "manifestUrl": "https://raw.githubusercontent.com/Matt1x-T1x/t1x-legacy-releases/main/version.json"
+  }
+}
