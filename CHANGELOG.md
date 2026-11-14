@@ -2,6 +2,14 @@
 
 Todas as mudanças notáveis deste projeto são documentadas neste arquivo seguindo [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-11-14 — `Desktop`
+
+### Adicionado
+- **Empacotamento Windows Nativo (Electron + NSIS):** Instalador `x64` com Next.js Standalone embutido e janela nativa *Telemetria Ancestral* (`#111014`).
+- **Isolamento do Vault no SO (`T1X_VAULT_PATH`):** Cofre do usuário isolado em `Documentos/T1x-Legacy/vault`, preservando dados pessoais entre atualizações.
+- **Auto-Updater Integrado:** Conexão IPC segura com `Matt1x-T1x/t1x-legacy-releases` para verificar, baixar e instalar atualizações dentro do próprio app.
+- **Ícone Oficial & Splash Screen:** Emblema vetorial Astrolábio + Árvore Viva (`icon.svg` / `icon.png` / `icon.ico`) e tela de abertura animada *Telemetria Ancestral*.
+
 ## [1.0.0] - 2026-11-14 — `Legacy`
 
 ### Adicionado
