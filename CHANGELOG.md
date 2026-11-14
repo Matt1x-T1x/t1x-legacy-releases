@@ -2,6 +2,11 @@
 
 Todas as mudanças notáveis deste projeto são documentadas neste arquivo seguindo [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-11-14 — `Desktop`
+
+### Corrigido
+- **Dependência `electron-updater` em produção:** Movido `electron-updater` de `devDependencies` para `dependencies` no `package.json` para inclusão correta no `app.asar` do instalador Windows.
+
 ## [1.1.0] - 2026-11-14 — `Desktop`
 
 ### Adicionado
